@@ -1,0 +1,17 @@
+{
+    "contents" : "attach(needdata)\nSub_metering_2<-as.numeric(as.character(Sub_metering_2))\npng(file=\"plot3.png\",bg=\"transparent\")\nplot(datetime,Sub_metering_1,col = \"black\",type = \"l\",xlab = \"\",ylab = \"Energy sub metering\")\nlines(datetime,Sub_metering_2,col = \"red\",type = \"l\")\nlines(datetime,Sub_metering_3,col = \"blue\",type = \"l\")\nlegend(\"topright\",c(\"Sub_metering_1\",\"Sub_metering_2\",\"Sub_metering_3\"),lty=c(1,1),col = c(\"black\",\"red\",\"blue\"))\ndev.off()\n",
+    "created" : 1438935213922.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2199935380",
+    "id" : "8F953351",
+    "lastKnownWriteTime" : 1438935276,
+    "path" : "D:/afterclassstudy/mooc_Rstat/R project1/Exploratory_Data_Analysisproject1/plot3.R",
+    "project_path" : "plot3.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

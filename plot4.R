@@ -1,6 +1,6 @@
 attach(needdata)
 Global_reactive_power<-as.numeric(as.character(Global_reactive_power))
-png("plot4.png")
+png("plot4.png",bg="transparent")
 par(mfrow = c(2,2))
 plot(datetime,Global_active_power,type = "l",xlab= "",ylab = "Global Active Power(kilowatts)")
 plot(datetime,Voltage,type = "l",xlab= "datetime",ylab = "Voltage")

@@ -1,0 +1,17 @@
+{
+    "contents" : "tdata<-read.table(\"household_power_consumption.txt\",header= TRUE)\nneeddata = subset(tdata,tdata$Date=='1/2/2007'|tdata$Date=='2/2/2007')\nattach(needdata)\nGlobal_active_power <- as.numeric(as.character(Global_active_power))\npng(file=\"plot1.png\",bg=\"transparent\")\nhist(Global_active_power,main = \"Global Active Power\",xlab = \"Global Active Power(kilowatts)\",col = \"red\")\ndev.off()\n\n\n\n\n",
+    "created" : 1438935161893.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2018731112",
+    "id" : "6F396144",
+    "lastKnownWriteTime" : 1438935278,
+    "path" : "D:/afterclassstudy/mooc_Rstat/R project1/Exploratory_Data_Analysisproject1/plot1.R",
+    "project_path" : "plot1.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

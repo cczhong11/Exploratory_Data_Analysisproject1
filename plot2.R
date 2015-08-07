@@ -1,6 +1,6 @@
 attach(needdata)
 datetime <- paste(Date,Time)
 datetime<-strptime(datetime,"%d/%m/%Y %H:%M:%S")
-png(file="plot2.png" )
+png(file="plot2.png",bg="transparent")
 plot(datetime,Global_active_power,type = "l",xlab= "",ylab = "Global Active Power(kilowatts)")
 dev.off()

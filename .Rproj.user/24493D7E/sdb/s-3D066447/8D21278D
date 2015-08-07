@@ -1,0 +1,17 @@
+{
+    "contents" : "attach(needdata)\ndatetime <- paste(Date,Time)\ndatetime<-strptime(datetime,\"%d/%m/%Y %H:%M:%S\")\npng(file=\"plot2.png\",bg=\"transparent\")\nplot(datetime,Global_active_power,type = \"l\",xlab= \"\",ylab = \"Global Active Power(kilowatts)\")\ndev.off()\n",
+    "created" : 1438935202602.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4139402883",
+    "id" : "8D21278D",
+    "lastKnownWriteTime" : 1438935277,
+    "path" : "D:/afterclassstudy/mooc_Rstat/R project1/Exploratory_Data_Analysisproject1/plot2.R",
+    "project_path" : "plot2.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,17 @@
+{
+    "contents" : "attach(needdata)\nGlobal_reactive_power<-as.numeric(as.character(Global_reactive_power))\npng(\"plot4.png\",bg=\"transparent\")\npar(mfrow = c(2,2))\nplot(datetime,Global_active_power,type = \"l\",xlab= \"\",ylab = \"Global Active Power(kilowatts)\")\nplot(datetime,Voltage,type = \"l\",xlab= \"datetime\",ylab = \"Voltage\")\nplot(datetime,Sub_metering_1,col = \"black\",type = \"l\",xlab = \"\",ylab = \"Energy sub metering\")\nlines(datetime,Sub_metering_2,col = \"red\",type = \"l\")\nlines(datetime,Sub_metering_3,col = \"blue\",type = \"l\")\nlegend(\"topright\",c(\"Sub_metering_1\",\"Sub_metering_2\",\"Sub_metering_3\"),lty=c(1,1),col = c(\"black\",\"red\",\"blue\"))\nplot(datetime, Global_reactive_power,type = \"l\")\ndev.off()\n",
+    "created" : 1438935260008.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2924844859",
+    "id" : "3088BB63",
+    "lastKnownWriteTime" : 1438935275,
+    "path" : "D:/afterclassstudy/mooc_Rstat/R project1/Exploratory_Data_Analysisproject1/plot4.R",
+    "project_path" : "plot4.R",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
